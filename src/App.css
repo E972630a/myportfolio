@@ -1,38 +1,140 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Navbar Section */
+#navbar {
+  background: #000000;
+  color: #ffffff;
+  overflow: auto;
+}
+
+#navbar a:hover {
+  color: #0C6291;
+}
+
+#navbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#navbar h1 {
+  float: left;
+  padding: 20px 0;
+  margin-left: 2%;
+}
+
+#navbar ul  {
+  float: right;
+  list-style: none;
+}
+
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 25px;
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Hero Section */
+.hero-image {
+  background: url('/img/background.jpg') no-repeat center center/cover;
+  height: 600px;
+  filter: brightness(40%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero-text h1 {
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-text h2 {
+  font-size: 2rem;
+  margin-top: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-text button {
+  width: 30%;
+  padding: 1%;
+  margin-top: 2%;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.hero-text button:hover {
+  color: #0C6291;
+  background: #000000;
+}
+
+/* About Me Section */
+.profile-image{
+  float: left;
+  width: 20%;
+  border-radius: 50%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aboutme {
+  font-size: 4rem;
+  text-align: center;
+  border-bottom: #000000;
+  margin-top: 1%;
+}
+
+.aboutme-paragraph {
+  margin-top: 6%;
+  margin-right: 15%;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+.skills {
+  font-size: 4rem;
+  text-align: center;
+  border-bottom: #000000;
+  margin-top: 10%;
+}
+
+/* Footer Section */
+#main-footer {
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  padding: 20px;
+  position: relative;
+  right: 0;
+  margin-top: 10%;
+  left: 0;
+}
+
+.socialMedia li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.socialMedia a:hover {
+  color: #0C6291;
 }
