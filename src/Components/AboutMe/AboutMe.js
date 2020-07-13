@@ -17,6 +17,13 @@ class AboutMe extends Component {
                 </div>
                 <div className="skills-section">
                     <h1 className='skills'>Skills</h1>
+                    <div>
+                    <img className="frontend-logo" src="img/front-end-logo.png" alt="front-end logo" />
+                    <p>Front-End</p>
+                    </div> 
+                    <div><img className="backend-logo" src="img/back-end-logo.png" alt="front-end logo" />
+                    </div>
+                    
                 </div>
             </div>
         )
