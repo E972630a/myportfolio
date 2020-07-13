@@ -36,7 +36,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/guessinggame.png" alt="speech recognition guessing game" style={{ width: 100 + '%' }} />
                             <h2><b>Guessing Game</b></h2>
-                            <p></p>
+                            <p>This project was created with Node.js, Javascript and API.</p>
                             <a href="https://eaguessinggame.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/Speech-Recognition-Guessing-Game" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -92,6 +92,14 @@ class Portfolio extends Component {
                             <h2><b>TechCrunch Redesign</b></h2>
                             <p></p>
                             <a href="https://techcrunch-redesign.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
+                            <a href="https://github.com/E972630a/techcrunch" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
+                        </div>
+                    </div>
+                    <div className="column">
+                        <div className="events-card">
+                            <img src="img/techcrunchredesign.png" alt="weather app" style={{ width: 100 + '%' }} />
+                            <h2><b>Pokemon Inquirer</b></h2>
+                            <p></p>
                             <a href="https://github.com/E972630a/techcrunch" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
                     </div>
