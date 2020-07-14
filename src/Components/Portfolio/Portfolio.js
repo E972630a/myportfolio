@@ -18,7 +18,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/hotelea.png" alt="hotel website" style={{ width: 100 + '%' }} />
                             <h2><b>Hotel EA</b></h2>
-                            <p></p>
+                            <p>The hotel app was part of an in class code along, created with HTML and CSS.</p>
                             <a href="https://hotelea.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/Hotel-Esau-App" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -27,7 +27,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/githubcards.png" alt="github card locator" style={{ width: 100 + '%' }} />
                             <h2><b>Github Card Locator</b></h2>
-                            <p></p>
+                            <p>This project was part of an in class code along using React and npm package axios.</p>
                             <a href="https://react-githubcards.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/react-githubcards" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -36,7 +36,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/guessinggame.png" alt="speech recognition guessing game" style={{ width: 100 + '%' }} />
                             <h2><b>Guessing Game</b></h2>
-                            <p>This project was created with Node.js, Javascript and API.</p>
+                            <p>This project was created with HTML, CSS, Javascript and speech recognition.</p>
                             <a href="https://eaguessinggame.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/Speech-Recognition-Guessing-Game" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -45,7 +45,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/animatednavbar.png" alt="animated navigation bar" style={{ width: 100 + '%' }} />
                             <h2><b>Animated Nav Bar</b></h2>
-                            <p></p>
+                            <p>This project was created with HTML, CSS and Javascript during an in class code along.</p>
                             <a href="https://animationnavbar.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/Animated-Navigation-Bar" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -54,7 +54,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/tictactoe.png" alt="react tic tac toe using hooks" style={{ width: 100 + '%' }} />
                             <h2><b>Tic Tac Toe</b></h2>
-                            <p></p>
+                            <p>This was created during TA office hours using React and hooks. </p>
                             <a href="https://eahooks-tictactoe.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/Hooks-TicTacToe" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -63,7 +63,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/todolist.png" alt="react to do list" style={{ width: 100 + '%' }} />
                             <h2><b>To Do List</b></h2>
-                            <p></p>
+                            <p>This project is part of an in class building using React.</p>
                             <a href="https://todolistea.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/To-Do-List" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -72,7 +72,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/ecommerce.png" alt="weather app" style={{ width: 100 + '%' }} />
                             <h2><b>eCommerce Project</b></h2>
-                            <p></p>
+                            <p>This project consisted of two iterations, using HTML, CSS, Javascript and React.</p>
                             <a href="https://reactecommerceproject.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/react-ecommerce" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -90,14 +90,14 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/techcrunchredesign.png" alt="weather app" style={{ width: 100 + '%' }} />
                             <h2><b>TechCrunch Redesign</b></h2>
-                            <p></p>
+                            <p>A team project using an iterative approach to create a full stack application</p>
                             <a href="https://techcrunch-redesign.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/techcrunch" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
                     </div>
                     <div className="column">
                         <div className="events-card">
-                            <img src="img/techcrunchredesign.png" alt="weather app" style={{ width: 100 + '%' }} />
+                            <img src="img/pokemon.png" alt="weather app" style={{ width: 100 + '%' }} />
                             <h2><b>Pokemon Inquirer</b></h2>
                             <p></p>
                             <a href="https://github.com/E972630a/techcrunch" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>

@@ -4,11 +4,28 @@ class Contact extends Component {
     render() {
         return(
             <div className="contact-section">
-                <h1 className="contact">MY CONTACT INFO</h1>
-                <div>
-                    <h2 className="contact-info">Phone Number: (336) 493-3311</h2>
-                    <h2 className="contact-info">Email: esauaguilar160@gmail.com</h2>
+    <section id="contact-form" className="py-3">
+        <div className="container">
+            <h1 className="l-heading"><span className="text-primary">Contact</span> Me</h1>
+            <p className="l-p">Please fill out the form for any feedback</p>
+            <form action="destination.php">
+                <div className="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name" />
                 </div>
+                <div className="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div className="form-group">
+                    <label for="message">Message or Questions:</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button type="submit" className="btn">Submit</button> <br />
+                </div>
+            </form>
+        </div>
+    </section>
+
             </div>
         )
     }
