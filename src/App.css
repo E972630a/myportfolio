@@ -66,8 +66,6 @@
 
 .hero-text h1 {
   font-size: 3rem;
-  transition: 3s;
-  transition-delay: 1s;
 }
 
 .hero-text h2 {
@@ -239,15 +237,15 @@
 }
 
 .btn {
-  display: inline-block;
-  font-size: 1rem;
-  color: #000000  ;
+  display: block;
+  font-size: 1.2rem;
+  color: #000000;
   background: #007bff;
   padding: 13px 20px;
   border: none;
   cursor: pointer;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 .btn:hover {
@@ -299,4 +297,165 @@
 
 .socialMedia a:hover {
   color: #ffffff;
+}
+
+/* Regual iPad Responsive */
+@media only screen and (max-width:768px) {
+  /* Hero Section */
+  .hero-text {
+    margin-top: -10%;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 2rem;
+    margin-top: 5%;
+  }
+  
+  .hero-text button {
+    width: 45%;
+    margin-top: 4%;
+    font-size: 1.5rem;
+  }
+  
+  /* About Me Section */
+  .profile-image{
+    width: 35%;
+    margin-top: 10%;
+  }
+  
+  .aboutme {
+    font-size: 4rem;
+    margin-top: 5%;
+  }
+  
+  .aboutme-paragraph {
+    margin-top: 7%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1rem;
+  
+  }
+  
+  /* Skill Section */
+  .center {
+    width: 95%;
+    margin-top: 60%;
+    margin-bottom: -46%;
+  }
+  
+  .center h1 {
+    font-size: 2.5rem;
+  }
+  /* Portfolio Section */
+  
+  .column {
+    width: 45%;
+  }
+  
+  
+  .events-card-button{
+    width: 40%;
+    margin-left: 30%;
+  }
+  
+  /* Resume Section */
+  .resume {
+   width: 100%;
+   margin-left: 0;
+  }
+  
+  /* Footer Section */
+  #main-footer {
+    margin-top: 30%;
+  
+  }
+  
+  .socialMedia li {
+    margin-left: 2%;
+  }
+}
+
+
+/* iPhone X  Responsive*/
+@media only screen and (max-width:375px) {
+/* Hero Section */
+.hero-text {
+  margin-top: 40%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+
+.hero-text button {
+  width: 100%;
+  margin-top: 4%;
+  font-size: 1.5rem;
+}
+
+/* About Me Section */
+.profile-image{
+  width: 30%;
+  margin-top: 10%;
+}
+
+.aboutme {
+  font-size: 4rem;
+  margin-top: 5%;
+}
+
+.aboutme-paragraph {
+  margin-top: 7%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 1rem;
+
+}
+
+/* Skill Section */
+.center {
+  width: 95%;
+  margin-top: 110%;
+  margin-bottom: -60%;
+}
+
+.center h1 {
+  font-size: 2.5rem;
+}
+/* Portfolio Section */
+
+.column {
+  width: 85%;
+}
+
+
+.events-card-button{
+  width: 40%;
+  margin-left: 30%;
+}
+
+/* Resume Section */
+.resume {
+ width: 100%;
+ margin-left: 0;
+}
+
+/* Footer Section */
+#main-footer {
+  margin-top: 30%;
+
+}
+
+.socialMedia li {
+  margin-left: 2%;
+}
 }
