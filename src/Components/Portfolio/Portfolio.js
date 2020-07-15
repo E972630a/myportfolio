@@ -81,7 +81,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/nonprofithackathon.png" alt="weather app" style={{ width: 100 + '%' }} />
                             <h2><b>Nonprofit Hackathon</b></h2>
-                            <p></p>
+                            <p>Team project will be responsible for creating a website for a non-profit organization. </p>
                             <a href="https://r2h-hackathon1.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/R2H-Hackathon1" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -89,18 +89,37 @@ class Portfolio extends Component {
                     <div className="column">
                         <div className="events-card">
                             <img src="img/techcrunchredesign.png" alt="weather app" style={{ width: 100 + '%' }} />
-                            <h2><b>TechCrunch Redesign</b></h2>
-                            <p>A team project using an iterative approach to create a full stack application</p>
+                            <h2><b>TechCrunch</b></h2>
+                            <p>A team project using an iterative approach to create a full stack application.</p>
                             <a href="https://techcrunch-redesign.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/techcrunch" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
                     </div>
                     <div className="column">
                         <div className="events-card">
-                            <img src="img/pokemon.png" alt="weather app" style={{ width: 100 + '%' }} />
-                            <h2><b>Pokemon Inquirer</b></h2>
+                            <img src="img/weather.png" alt="weather app" style={{ width: 100 + '%' }} />
+                            <h2><b>Weather App</b></h2>
+                            <p>The weather app is part of an in class code along that has been changed.</p>
+                            <a href="https://weatherappea.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
+                            <a href="https://github.com/E972630a/weather-app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
+                        </div>
+                    </div>
+                    <div className="column">
+                        <div className="events-card">
+                            <img src="img/mern-exercisetracker.png" alt="weather app" style={{ width: 100 + '%' }} />
+                            <h2><b>Exercise Tracker</b></h2>
+                            <p>The Exercise Tracker was created as a side project the using MERN stack.</p>
+                            <a href="https://mern-exercisetracker.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
+                            <a href="https://github.com/E972630a/MERN-Exercise-Tracker" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
+                        </div>
+                    </div>
+                    <div className="column">
+                        <div className="events-card">
+                            <img src="img/pokedex.png" alt="weather app" style={{ width: 100 + '%' }} />
+                            <h2><b>Hooks Pokédex</b></h2>
                             <p></p>
-                            <a href="https://github.com/E972630a/techcrunch" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
+                            <a href="https://hooks-pokemon.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
+                            <a href="https://github.com/E972630a/hooks-pokemon" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
                     </div>
                 </div>
