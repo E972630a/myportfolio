@@ -117,7 +117,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/pokedex.png" alt="weather app" style={{ width: 100 + '%' }} />
                             <h2><b>Hooks Pokédex</b></h2>
-                            <p></p>
+                            <p>Hooks Pokédex was created using the idea of an in class code along with some changes.</p>
                             <a href="https://hooks-pokemon.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/hooks-pokemon" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
@@ -126,7 +126,7 @@ class Portfolio extends Component {
                         <div className="events-card">
                             <img src="img/flexbox-portfolio.png" alt="weather app" style={{ width: 100 + '%' }} />
                             <h2><b>Flexbox Portfolio</b></h2>
-                            <p></p>
+                            <p> The flexbox portfolio was created as an extra project using HTML, CSS, and JavaScript.</p>
                             <a href="https://flexbox-portfolio.netlify.app" target="_blank" rel="noopener noreferrer"><button className="events-card-button">View</button></a>
                             <a href="https://github.com/E972630a/flexbox-portfolio" target="_blank" rel="noopener noreferrer"><button className="events-card-button">Github</button></a>
                         </div>
