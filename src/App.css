@@ -321,8 +321,29 @@
   color: #ffffff;
 }
 
+.last__update {
+  float: right;
+  margin-top: -1%;
+  font-size: 0.75rem;
+}
+
 /* Regual iPad Responsive */
 @media only screen and (max-width:768px) {
+  /* Navbar Section */
+  #navbar h1 {
+    font-size: 1.6rem;
+    float: left;
+    padding: 20px 0;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+
+  #navbar ul  {
+    float: right;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-top: .8%;
+  }
   /* Hero Section */
   .hero-text {
     margin-top: -10%;
@@ -378,7 +399,6 @@
     width: 45%;
   }
   
-  
   .events-card-button{
     width: 40%;
     margin-left: 30%;
@@ -389,15 +409,31 @@
    width: 100%;
    margin-left: 0;
   }
-  
+  .resume__button {
+    width: 20%;
+    margin-top: 23%;
+    margin-left: 40%;
+    font-size: 1rem;
+  }
+
+  /* Contact Section */
+.container {
+  margin-top: 10%;
+  margin-bottom: -30%;
+}
+
   /* Footer Section */
   #main-footer {
-    margin-top: 30%;
+    margin-top: 36%;
   
   }
   
   .socialMedia li {
     margin-left: 2%;
+  }
+
+  .last__update {
+    margin-top: -2%;
   }
 }
 
@@ -470,6 +506,12 @@
  width: 100%;
  margin-left: 0;
 }
+.resume__button {
+  width: 40%;
+  margin-top: 21%;
+  margin-left: 30%;
+  font-size: .85rem;
+}
 
 /* Footer Section */
 #main-footer {
@@ -479,5 +521,9 @@
 
 .socialMedia li {
   margin-left: 2%;
+}
+
+.last__update {
+  margin-top: -5%;
 }
 }
